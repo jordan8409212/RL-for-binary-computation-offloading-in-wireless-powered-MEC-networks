@@ -1,5 +1,5 @@
 # RL-for-binary-computation-offloading-in-wireless-powered-MEC-networks
-It's a implementation about the paper Liang Huang, Suzhi Bi, and Ying-jun Angela Zhang, "Deep Reinforcement Learning for Online Computation Offloading in Wireless Powered Mobile-Edge Computing Networks", on https://ieeexplore.ieee.org/document/8771176
+It's a implementation about the paper Liang Huang, Suzhi Bi, and Ying-jun Angela Zhang, "Deep Reinforcement Learning for Online Computation Offloading in Wireless Powered Mobile-Edge Computing Networks", on https://ieeexplore.ieee.org/document/8771176.
 But I've modified some parameters and the number of neurons in the decoder network, and I switch the decoder method to 'K nearest neighbor'.
 This work considered a wireless powered mobile edge-computing network that follows binary offloading policy. That is, each computation is either computed on the energy harvesting WD or offloaded to an server(AP). The goal of DROO is to optimize the offloading decisions and allocate the resouces according to the channel conditions(channel gain)
 
