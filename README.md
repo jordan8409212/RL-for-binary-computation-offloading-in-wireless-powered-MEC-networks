@@ -9,10 +9,9 @@ This work considered a wireless powered mobile edge-computing network that follo
 align=center>
 - The nomalized computation rate during training 
 the nomalized computation rate is defined as follows
-$$\[\begin{aligned}
-&\hat Q(\textbf{h},\textbf{x})=\frac{Q^*(\textbf{h},\textbf{x})}{\max\limits_{\textbf{x}'\in\{0,1\}^N}Q^*(\textbf{h},\textbf{x}')}\\
-&\hat Q(\textbf{h},\textbf{x})\in [0,1]
-\end{aligned}\]$$
+<img src="https://latex.codecogs.com/gif.latex?%5Chat%20Q%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%3D%5Cfrac%7BQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%7D%7B%5Cmax%5Climits_%7B%5Ctextbf%7Bx%7D%27%5Cin%5C%7B0%2C1%5C%7D%5EN%7DQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%27%29%7D" width = "400" height = "260" alt="train" 
+align=center>
+
 The blue curve denotes the moving average of $$\hat{Q}$$ over the last 50 time frames, and the
 light blue shadow denotes the maximum and minimum of $\hat{Q}$ in the last 50 frames.
 - <img src="https://github.com/jordan8409212/RL-for-binary-computation-offloading-in-wireless-powered-MEC-networks/blob/master/result/Normalized%20computation%20rate(training).jpeg" width = "400" height = "260" alt="train" 
