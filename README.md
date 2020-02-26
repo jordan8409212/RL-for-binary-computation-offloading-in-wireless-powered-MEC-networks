@@ -9,7 +9,7 @@ This work considered a wireless powered mobile edge-computing network that follo
 align=center>
 - The nomalized computation rate during training 
 the nomalized computation rate is defined as follows
-<img src="https://latex.codecogs.com/gif.latex?%5Chat%20Q%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%3D%5Cfrac%7BQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%7D%7B%5Cmax%5Climits_%7B%5Ctextbf%7Bx%7D%27%5Cin%5C%7B0%2C1%5C%7D%5EN%7DQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%27%29%7D" width = "20" height = "10" alt="train" 
+<img src="https://latex.codecogs.com/gif.latex?%5Chat%20Q%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%3D%5Cfrac%7BQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%29%7D%7B%5Cmax%5Climits_%7B%5Ctextbf%7Bx%7D%27%5Cin%5C%7B0%2C1%5C%7D%5EN%7DQ%5E*%28%5Ctextbf%7Bh%7D%2C%5Ctextbf%7Bx%7D%27%29%7D" 
 align=center>
 
 The blue curve denotes the moving average of $$\hat{Q}$$ over the last 50 time frames, and the
