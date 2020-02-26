@@ -1,9 +1,3 @@
-#  #################################################################
-#  This file contains memory operation including encoding and decoding operations.
-#
-# version 1.0 -- January 2018. Written by Liang Huang (lianghuang AT zjut.edu.cn)
-#  #################################################################
-
 from __future__ import print_function
 import tensorflow as tf
 import numpy as np
